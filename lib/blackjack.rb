@@ -53,9 +53,7 @@ end
 def runner
   welcome
   card_total = initial_round
-  prompt_user
-  counter = 0 
-  until counter > 21 do
+  until card_total > 21 do
   hit
   counter +=1
 end
