@@ -52,7 +52,7 @@ end
 
 def runner
   welcome
-  initial_round
+  card_total = initial_round
   prompt_user
   counter = 0 
   until counter > 21 do
