@@ -44,7 +44,6 @@ end
 
 def invalid_command
   puts "Please enter a valid command"
- 
 end
 
 #####################################################
@@ -52,6 +51,14 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  welcome
+  initial_round
+  prompt_user
+  counter = 0 
+  until counter > 21 do
+  hit
+  counter +=1
+end
+end_game
 end
     
