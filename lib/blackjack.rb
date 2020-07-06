@@ -15,7 +15,7 @@ def prompt_user
 end
 
 def get_user_input(input)
-  input = gets.strip
+  input = gets.chomp
 end
 
 def end_game
